@@ -28,10 +28,6 @@ public class Karyawan {
         return this.gajiPokok;
     }
 
-    public double hitungGaji(double gajiPokok){
-        return gajiPokok;
-    }
-
     public void info(){
         System.out.println("Nama \t\t: " + nama);
         System.out.println("Gaji Pokok \t: " + gajiPokok);
